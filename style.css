@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor:url(images/Arrow.png), auto;
+    font-family: 'Short Stack', cursive;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+} 
+#header{
+    background-image: url(images/pic10.png);
+    height: 68vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    width: 1440px;
+}
+#midbanner{
+    background-image: url(images/pic3.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    width: 1440px;
+}
+#midbanner2{
+    background-image: url(images/pic2.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    width: 1440px;
+}
+#midbanner3{
+    background-image: url(images/pic3.jpg);
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: center;
+    width: 1440px;
+}
+h1{
+    font-size:20px;
+    font-weight: 100;    
+}
+.navbar{
+    background-color: #000;
+    text-align: center;
+}
+.navbar a p{
+    display:contents;
+    font-size: 18px; 
+    text-decoration: none;
+}
+.profile{
+    text-align-last: center;
+    padding-left: 450px;
+    filter: brightness(100%);
+    font-size:20px;
+}
+.profile h1{
+     font-family: 'Laila', sans-serif;
+    margin-left: 50;
+}
+h3{
+     font-family: 'Laila', sans-serif;
+    text-align-last: center;
+    color:aliceblue;
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 120px;
+}
+.mainmenu{
+     transition: 2s;
+}
+.mainmenu:hover{
+    transform: matrix(1.02);
+    transition: 2s;
+}
+.navcontent{
+    margin-right: 100;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}  
+  .profile button {
+  background:none;
+  border-radius: 1px;
+  border: 1px solid #fff;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+      margin-left: 60;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top:40;
+  transition: color 3s;
+}
+.profile button:hover{
+    color:#fff;
+    border-color:#fff;
+    background-color: #000;
+    transform: scale(1.05);
+    transition: 2s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    cursor:pointer;
+}
+
+.cvbutton{
+  background:none;
+  border-radius: 1px;
+  border: 1px solid #fff;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin-top:40;
+  transition: color 2s;
+  margin-left: 645;
+}
+.cvbutton:hover{
+    color:#000;
+    border-color:#fff;
+    background-color: #fff;
+    transform: scale(1.05);
+    transition: 2s;
+    box-shadow: 30px 30px 10px 20x rgba(0,0,0,1);
+    cursor:pointer;
+}
+.sounddesign{
+    background-color:#000;
+    color:#fff;
+    height: 120vh;
+}
+.musiccontent{
+    background: #000;
+    color:#fff;
+    height: auto;
+    text-align-last: center;
+    padding-top: 10px;
+   
+}
+musiccontent2{
+    background-color:  white;
+    color:#000;
+    height: 150vh;
+    text-align-last: center;
+    padding-top: 10px;
+    filter: grayscale(100%);
+}
+.title{
+    text-align-last: center;
+    font-size: 40px;
+    margin-top: 40;
+    margin-bottom: 40;
+}
+#music{
+    background-color: lightgray;
+}
+.navbar a img{
+    width:200px;
+}
+#contact{
+    margin-top: 30;
+}
+
+form {
+      margin-left: 400;
+      margin-top: 50;
+      width: 650px;
+      height: 350px;
+      padding: 20px;
+      background: #fff;
+      box-shadow: 0 2px 5px #ccc; 
+      }
+      input {
+      width: calc(100% - 10px);
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-top: 20;
+      vertical-align: middle;
+      }
+      input:hover, textarea:hover {
+      outline: none;
+      border: 1px solid #000;
+      }
+      th, td {
+      width: 28%;
+      padding: 25px 0;
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      vertical-align: unset;
+      line-height: 18px;
+      font-weight: 400;
+      word-break: break-all;
+      }
+      .first-col {
+      width: 16%;
+      text-align: left;
+      }
+      textarea:hover {
+      outline: none;
+      border: 6px solid #1c87c9;
+     
+      }
+      table {
+      width: 100%;
+      }
+      textarea {
+      margin-top: 20;
+      width: calc(100% - 6px);
+      }
+      .btn-block {
+      margin-top: 20px;
+      text-align: center;
+      margin-left: -15;
+      }
+      .btn-block button {
+      width: 150px;
+      padding: 10px;
+      border: 1px solid #000;
+      margin-top:10;
+      -webkit-border-radius: 5px; 
+      -moz-border-radius: 5px; 
+      border-radius: 1px; 
+      background-color: #fff;
+      font-size: 16px;
+      color: #000;
+      cursor: pointer;
+      }
+       .btn-block button:hover {
+       background-color: #000;
+       color:#fff;
+       transition: 1s;
+       transform: scale(1.05);
+      }
+      @media (min-width: 568px) {
+      th, td {
+      word-break: keep-all;
+      }
+      }
+
+#nav {
+  position: fixed; /* Make it stick/fixed */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    background-color: #000;
+}
+.copyright{
+    width: 100%;
+    text-align:center;
+    padding: 80px 0;
+    background:none;
+    font-weight: 300;
+    font-size: 20px;
+    border-color: bisque;
+    text-decoration: none;
+    border-radius: 10;
+    color: #fff;  
+}
+.copyright i{
+    color: #fff;
+    font-family: 'Schoolbell', cursive;
+}
+.copyright a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Schoolbell', cursive;
+}
+
+.social-icons{
+    padding-top:30px;
+	background-color:none;
+    text-align: center;
+}
+.social-icons a{
+  color:#fff;
+  line-height:20px;
+  font-size:30px;
+  margin: 0 5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+  line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 500ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 500ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 500ms ease-in;
+  transform: scale(1);
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(0.8);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  right: -90;
+  top:0;
+  background-color: #000; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 40px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+    padding-bottom: 100px;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.5s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+    color: #f1f1f1;
+    transform: scale(1.2);
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 145px;
+  font-size: 30px;
+  margin-left: 10;
+  margin-bottom: 50;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color:#000;
+  color: white;
+  border: none;
+  padding-left: 1350px;
+  top:0;
+  z-index: 1;
+
+}
+.openbtn:hover {
+  background-color: #000;
+
+}
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s; /* If you want a transition effect */
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
